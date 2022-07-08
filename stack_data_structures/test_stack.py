@@ -1,14 +1,14 @@
 import unittest
 from stack import Stack
 
-# test_is_empty_true
+# testung data 1
 s = Stack()
 
-# test_is_empty_false and test_push data 
+# testing data 2
 s1 = Stack()
 s1.push('test')
 
-# test_is_empty_false dat 
+# testing data 3 
 s2 = Stack()
 s2.push('test')
 
