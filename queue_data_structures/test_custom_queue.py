@@ -2,19 +2,6 @@ import unittest
 
 from custom_queue import Custom_Queue
 
-# Test data
-cq = Custom_Queue(4)
-
-cq1 = Custom_Queue(1)
-cq1.enqueue('Test')
-
-cq2 = Custom_Queue(1)
-
-cq3 = Custom_Queue(3)
-
-cq3.enqueue('dequeue_test')
-cq3.enqueue('peek_test')
-
 class TestCustom_Queue(unittest.TestCase):
     """ UnitTest for the Custom_Queue class from the custom_queue module. """
 
